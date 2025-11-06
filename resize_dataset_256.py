@@ -162,6 +162,15 @@ python resize_dataset_256.py \
   --mask-dir /ruta/output/mask \
   --keep-aspect --dry-run
 
+  
+# Escribir a nuevas carpetas destino con 256x256
+python resize_dataset_256.py \
+  --img-dir /ruta/output/img \
+  --mask-dir /ruta/output/mask \
+  --out-img /ruta/output/img_256 \
+  --out-mask /ruta/output/mask_256 \
+  --keep-aspect \
+  --size 256
 """
 if __name__ == "__main__":
     main()
