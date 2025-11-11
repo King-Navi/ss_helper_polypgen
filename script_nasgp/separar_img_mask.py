@@ -240,11 +240,22 @@ Este es el 1°
 Por ejemplo, para usar todo:
 
 python script_nasgp/separar_img_mask.py \
-  --root /home/ivan/Downloads/img_resized_512/output \
-  --out /home/ivan/Downloads/img_resized_512/output_splitted \
+  --root /home/ivan/Documents/SS/PolypGen/PolypGen2021_MultiCenterData_v2 \
+  --out /home/ivan/Downloads/img_resized_512/output_2 \
   --train 0.7 \
   --val 0.15 \
-  --seed 42
+  --seed 999999
+
+python script_nasgp/separar_img_mask.py \
+  --root /home/ivan/Documents/SS/PolypGen/PolypGen2021_MultiCenterData_v2 \
+  --out /home/ivan/Downloads/nasga_example/struct \
+  --train 0.7 \
+  --val 0.15 \
+  --seed 999999
+
+
+  
+  
 
 
 Solo 300 pares en total (y de ahí saca train/val/test):

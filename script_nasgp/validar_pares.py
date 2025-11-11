@@ -126,6 +126,9 @@ Con tu estructura train/val/test:
 python script_nasgp/validar_pares.py \
   --root /home/ivan/Downloads/img_resized_512/output_2
 
+python script_nasgp/validar_pares.py \
+  --root /home/ivan/Downloads/nasga_example/struct
+
 
 Con carpetas sueltas:
 
